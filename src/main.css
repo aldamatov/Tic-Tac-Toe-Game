@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: "Press Start 2P", cursive;
+  font-family: "Roboto", cursive;
   color: white;
 }
 
@@ -10,7 +10,6 @@ body {
   background-position: center;
   background-size: cover;
   display: flex;
-  height: 100vh;
   justify-content: space-around;
   align-items: center;
 }
@@ -30,30 +29,10 @@ h1 {
     0 0 0.8rem #0d28c5, 0 0 2.8rem #47c8da, inset 0 0 1.3rem #1f6adb;
 }
 
-.steps {
-  margin-top: 83px;
-  width: 35%;
-  padding: 10px;
-  border: 2px solid #fff700;
-  color: #fff700;
-  background-color: black;
-  justify-content: center;
-  border-radius: 10px;
-  position: relaive;
-  height: 480px;
-  letter-spacing: 0.5px;
-  line-height: 3;
-  margin-left: 10px;
-}
-
-hr {
-  color: #ccff15;
-  border: 1px solid yellow;
-}
-
 .wrapper {
   margin-top: 20px;
-  width: 60%;
+  margin-bottom: 20px;
+  width: 600px;
   margin-right: 0;
   display: flex;
   justify-content: center;
@@ -63,11 +42,31 @@ hr {
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #0c2ad3,
     0 0 0.8rem #0d28c5, 0 0 2.8rem #47c8da, inset 0 0 1.3rem #1f6adb;
 }
+.steps {
+  margin-top: 50px;
+  height: 250px;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid #fff700;
+  color: #fff700;
+  background-color: black;
+  justify-content: center;
+  border-radius: 10px;
+  position: relaive;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  margin-left: 10px;
+}
+
+hr {
+  color: #ccff15;
+  border: 1px solid yellow;
+}
 
 table {
   height: 50vh;
   width: 50vh;
-  margin: 80px 20px;
+  margin: 50px 20px;
   border-collapse: collapse;
   border-style: hidden;
 }
@@ -94,6 +93,7 @@ td:active {
   height: 20px;
   padding: 20px 20px;
   font-weight: bold;
+  font-size: 18px;
   cursor: pointer;
   margin-right: 20%;
   margin-top: 5%;
